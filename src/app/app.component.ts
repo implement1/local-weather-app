@@ -5,13 +5,15 @@ import { Component } from '@angular/core'
   template: `
     <div style = "text-align:center" >
       <h1>
-      LocalCast Weather
+      <mat-toolbar color="primary">
+  <span>LocalCast Weather</span>
+</mat-toolbar>
     < / h1 >
   <div>Your city, your forecast, right now! < /div>
   < h2 > Current Weather < /h2>
-  < app - current - weather > </app-current-weather>
+  <app-current-weather > </app-current-weather>
 
-< /div>
+</div>
 `,
 })
 export class AppComponent {
