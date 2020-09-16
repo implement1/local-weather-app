@@ -21,6 +21,12 @@ import { Component } from '@angular/core'
   </div>
   </div>
 
+  <div fxLayoutAlign="center">
+      <app-city-search></app-city-search>
+    </div>
+
+
+
   <div fxLayout="row">
   <div fxFlex></div>
   <div fxFlex="300px">
